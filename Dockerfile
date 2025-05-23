@@ -1,5 +1,10 @@
 # 1. 构建阶段：使用官方 Node 镜像来编译前端资源
-FROM node:14-alpine AS builder
+FROM node:18-alpine AS builder
+
+# 安装 Python 和构建工具
+#RUN apk add --no-cache python3 make g++
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories && \
+    apk add --no-cache python3 make g++
 
 # 设置工作目录
 WORKDIR /app
@@ -8,7 +13,11 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装依赖 跳过不兼容vue3的库，该项目使用了一个vue2的库，docker会严格检查版本冲突导致build失败
-RUN npm install --legacy-peer-deps
+# RUN npm install --legacy-peer-deps
+#RUN npm config set registry https://registry.npmmirror.com && \
+#    npm install --legacy-peer-deps
+RUN npm install -g cnpm --registry=https://registry.npmmirror.com && \
+    cnpm install --legacy-peer-deps
 
 
 # 拷贝其他前端源代码

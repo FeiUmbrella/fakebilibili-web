@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43d41199-db30-4ead-855a-19b37487ed56" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-imports.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/auto-imports.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/00018.6d5e45de.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/404.5d058857.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/404.9e6f4d94.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/DPlayer.min.b7c897e2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.0cb8523b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.233eeedc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.2b3530e2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.4a1bafe2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.637a2e02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.9af67399.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.ab53beaa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.b152dbfe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.f02b2f93.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/Layout.fcfc95c3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/ZhuZiAWan2.3d930970.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/agate.e31e62ce.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/aliyun-oss-sdk.2a87f0fb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/aliyun-oss-sdk.c5af02fd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/article.296f3207.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/article.63e80f15.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/article.9f33a052.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/article.d91eef6a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/background.4de95c70.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/background.8b44a245.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/background5.6b54357a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/bannerWave1.8c9bcb49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/bannerWave2.6aeb76db.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/barrage.146be6af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/barrage.de1c2f0a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/centerForCreators.472e5b24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/charector.f244e886.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/collectList.4239490a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/collectList.4e1242a3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/collectList.5b6ec1ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/column-bg.8c3cc398.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/column.59d773a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/column.8c5d8a43.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/columnCard.88adf85d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/comment.16619840.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/comment.87a04c15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/comment.b4a64205.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/comments-textarea-img.b42c706b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/commonality.2a0df1e0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/contribute.344a293d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/contribute.6b788e22.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/contribution.36ea1e3c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/createFavorites.d269d13e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/createFavorites.d52ea2f2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/creation.6bf1bcd7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-avatar.55e4ee6e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-button.2cb60ae5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-checkbox.e117c7b0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-col.b7cf8595.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-empty.743b38f5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-form-item.d10bb01f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-icon.b1770749.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-image-viewer.21a319c0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-infinite-scroll.3c533531.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-input.6a7cdab4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-main.f5c6a819.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-menu-item.ba12caf0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-overlay.49152403.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-popover.9f471fc1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-popper.b17b6765.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-row.75b42a51.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-select.2b11dd84.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-skeleton-item.2cbc8fed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-sub-menu.18b29ac4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-switch.a21b1d04.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-tab-pane.7e66957b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/el-tag.5dc68ec4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/favorites.1000afa3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/favorites.1a6bacdc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/focus.de63bc5a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/header-bg.fa2967ff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/home.3fb65108.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/home.6edf73ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/homeRotograph.e8ee61a0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.0228ac47.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.24bc3126.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.6b462f74.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index.f22c08f3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/live-bg.9c936131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/live.52054988.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/live.57d800a9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/live.facdac17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/login.1ae20aaa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/login.6dcb0c5a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/myAttention.a6699101.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/myAttention.d6e9f1e3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/myVermicelli.706fd8f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/myVermicelli.8a512365.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/pageHeader.3132b316.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/pageHeader.dbe8349f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/personal.ec4b42a6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/personalNavigation.840049dd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/pictureSetting.5c0adefd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/pictureSetting.890a7ead.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/record.152da986.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/record.540baddf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/room.1dcd2515.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/room.74976c3f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/safety.080b32c3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/safety.18ac9d7b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/setUp.4b74e761.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/setUp.f45e682b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/space.0e0b8632.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/space.754606cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/space.f36720b6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/stringConversion.18593f52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/topNavigation.9673a43d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/topNavigation.fd811867.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/unselectedMsg.0cceed90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/upload.8470b696.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/usePersonalLetter.c7e483ac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/user.7dac1d1d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/user.d0186580.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/userInfo.1d572f4c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/userInfo.29c50cc2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/userInfo.2d9cbf0e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/userShow.51d94a11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/userShow.f9353fd5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/validate.c9820062.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.1476ebc0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.401602f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.669d6cf3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.67eefe58.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.9a1fe025.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/video.b3c75f77.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/vue-ellipsis-3.es.74e51318.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/whiteWhale.d4344b94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commentPosting/commentPosting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commentPosting/commentPosting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commentPosting/videoCommentPosting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commentPosting/videoCommentPosting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/creation/contribute/contributePage/vdeoContribution.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/creation/contribute/contributePage/vdeoContribution.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/creation/manuscript/article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/creation/manuscript/article.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/show/video/video.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/show/video/video.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/requst/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/requst/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/creation/manuscript/article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/creation/manuscript/article.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;FeiUmbrella&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/FeiUmbrella/fakebilibili-web.git&quot;,
+    &quot;accountId&quot;: &quot;07648b0b-8171-45e3-b6c0-d9fa17569abf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vRQ7pmRW4UMC9ddoq0r6nlUgbq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Get_Offer/Go/Projects/haifengonline-web/src/assets/img/avatar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Get_Offer\\Go\\Projects\\haifengonline-web\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Get_Offer\Go\Projects\haifengonline-web\src\assets\img\avatar" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="43d41199-db30-4ead-855a-19b37487ed56" name="更改" comment="" />
+      <created>1744105241770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744105241770</updated>
+      <workItem from="1744105242893" duration="608000" />
+      <workItem from="1744166237610" duration="4146000" />
+      <workItem from="1744510860685" duration="2139000" />
+      <workItem from="1744600049598" duration="15712000" />
+      <workItem from="1744635367480" duration="2043000" />
+      <workItem from="1744714853663" duration="4943000" />
+      <workItem from="1744785282810" duration="2028000" />
+      <workItem from="1746579253624" duration="7821000" />
+      <workItem from="1746601806912" duration="2494000" />
+      <workItem from="1746753340273" duration="5102000" />
+      <workItem from="1747016447423" duration="23045000" />
+      <workItem from="1747182423142" duration="12762000" />
+      <workItem from="1747828776069" duration="7387000" />
+      <workItem from="1747897975312" duration="14971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
