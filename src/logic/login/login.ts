@@ -55,7 +55,7 @@ export const useLoginProp = () => {
         btnText: "send",
         isPleaseClick: true
     })
-
+    console.log("login.ts Begin!\n")
     const sendEmail = async (email: string, emailType: sendEmailType) => {
         if (!emailType) return
         if (sendEmailInfo.isPleaseClick == false) return
@@ -63,6 +63,7 @@ export const useLoginProp = () => {
             const emailReq = <sendEmailReq>{
                 email: email
             }
+            console.log("login1 before: ", loading.loading)
             loading.loading = true
             if (emailType == "regist") {
                 await sendEmailVerificationCode(emailReq)
@@ -72,6 +73,7 @@ export const useLoginProp = () => {
 
             sendEmailInfo.isPleaseClick = false
             loading.loading = false
+            console.log("login1 end: ", loading.loading)
             Toast.fire({
                 icon: 'success',
                 title: '验证码发送成功'
@@ -126,6 +128,7 @@ export const useLoginMethod = (store: any, router: Router, loginForm: loginReq) 
         await formEl.validate(async (valid, fields) => {
             if (valid) {
                 try {
+                    console.log("login2 before: ", loading.loading)
                     loading.loading = true
                     const result = await loginRequist(loginForm)
                     store.setUserInfo(<userInfoRes>result.data)
@@ -134,6 +137,7 @@ export const useLoginMethod = (store: any, router: Router, loginForm: loginReq) 
                     useInitNoticeSocket()
 
                     loading.loading = false
+                    console.log("login2 end: ", loading.loading)
                     router.push("/")
 
                 }
@@ -168,6 +172,7 @@ export const useRegisterMethod = (store: any, router: Router, registForm: regist
         await formEl.validate(async (valid, fields) => {
             if (valid) {
                 try {
+                    console.log("login3 before: ", loading.loading)
                     loading.loading = true
                     const result = await regist(registForm)
                     store.setUserInfo(<userInfoRes>result.data)
@@ -176,6 +181,7 @@ export const useRegisterMethod = (store: any, router: Router, registForm: regist
                         title: '注册成功'
                     })
                     loading.loading = false
+                    console.log("login3 end: ", loading.loading)
                     router.push("/")
                 }
                 catch (err: any) {
@@ -208,6 +214,7 @@ export const useForgetrMethod = (forgetForm: forgetReq, currentModel: Ref<boolea
         await formEl.validate(async (valid, fields) => {
             if (valid) {
                 try {
+                    console.log("login4 before: ", loading.loading)
                     loading.loading = true
                     await forgetRequist(forgetForm)
                     Toast.fire({
@@ -223,6 +230,7 @@ export const useForgetrMethod = (forgetForm: forgetReq, currentModel: Ref<boolea
                     }, 500)
                     currentModel.value = false
                     loading.loading = false
+                    console.log("login4 end: ", loading.loading)
                     return
 
                 }

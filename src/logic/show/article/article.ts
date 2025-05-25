@@ -30,6 +30,8 @@ export const useArticleShowProp = () => {
     }
 }
 export const useInit = async (articleID: Ref<number>, articleInfo: Ref<GetArticleContributionByIDRes>, route: RouteLocationNormalizedLoaded, router: Router, global: any) => {
+    console.log("articleUseInit, 进入useInit，路由参数是：", route.params.id)
+
     try {
         if (!route.params.id) {
             router.back()

@@ -34,14 +34,16 @@ export const useSafetyMethod = (form: changePasswordReq) => {
     };
 
     const sendVerificationCode = async (sendVerificationCodeInfo: sendEmailInfo) => {
+        console.log("safety.ts Begin: \n", loading.loading)
         if (sendVerificationCodeInfo.isPleaseClick == false) return
         try {
+            console.log("safety1 before: ", loading.loading)
             loading.loading = true
             const result = await sendEmailVerificationCodeByChangePassword()
 
             sendVerificationCodeInfo.isPleaseClick = false
             loading.loading = false
-
+            console.log("safety1 end: ", loading.loading)
             Swal.fire({
                 title: "验证码已发送！",
                 heightAuto: false,
@@ -69,6 +71,7 @@ export const useSafetyMethod = (form: changePasswordReq) => {
 
     const setUserInfo = async () => {
         try {
+            console.log("safety2 before: ", loading.loading)
             loading.loading = true
             let res = await changePassword(form)
             Swal.fire({
@@ -81,6 +84,7 @@ export const useSafetyMethod = (form: changePasswordReq) => {
             form.verificationCode = ""
             form.password = ""
             loading.loading = false
+            console.log("safety2 end: ", loading.loading)
         } catch (err: any) {
             loading.loading = false
             Swal.fire({

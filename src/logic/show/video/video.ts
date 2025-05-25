@@ -144,6 +144,8 @@ export const formatTime = (seconds: number): string => {
 
 
 export const useInit = async (videoRef: Ref, route: RouteLocationNormalizedLoaded, Router: Router, videoID: Ref<Number>, videoInfo: UnwrapNestedRefs<VideoInfo>, global: any) => {
+    console.log("videoUseInit, 进入useInit，路由参数是：", route.params.id)
+
     try {
         //绑定视频id
         if (!route.params.id) {

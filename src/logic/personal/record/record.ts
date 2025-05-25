@@ -46,11 +46,14 @@ export const useJump = (item: GetRecordListItem, router: Router) => {
 
 export const useDelRecord = async (recordList: Ref<GetRecordListRes>, id: number, loading: any) => {
     try {
+        console.log("record.ts Begin\n")
+        console.log("record before: ", loading.loading)
         loading.loading = true
         await deleteRecordByID(<DeleteRecordByIDReq>{
             id
         })
         loading.loading = false
+        console.log("login end: ", loading.loading)
         recordList.value = recordList.value.filter((item) => {
             if (item.id == id) item.is_delete = true
             return item
