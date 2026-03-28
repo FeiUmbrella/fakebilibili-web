@@ -30,11 +30,14 @@ export interface OssConfig {
 
 export interface OssSTSInfo {
   region: string;
-  accessKeyId: string;
-  accessKeySecret: string;
-  stsToken: string;
   bucket: string;
   expirationTime: number;
+  secretId?: string;
+  secretKey?: string;
+  sessionToken?: string;
+  accessKeyId?: string;
+  accessKeySecret?: string;
+  stsToken?: string;
 }
 
 

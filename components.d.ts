@@ -11,7 +11,7 @@ declare module '@vue/runtime-core' {
     BugList: typeof import('./src/components/bugList/BugList.vue')['default']
     Card: typeof import('./src/components/homeLiveCard/card.vue')['default']
     ChatBox: typeof import('./src/components/messageList/chatBox.vue')['default']
-    Column: typeof import('./src/components/columnBroadcast/column.vue')['default']
+    Column: typeof import('./src/components/LiveBroadcast/column.vue')['default']
     ColumnCard: typeof import('./src/components/spaceCard/columnCard.vue')['default']
     CommentPosting: typeof import('./src/components/commentPosting/commentPosting.vue')['default']
     CreateFavorites: typeof import('./src/components/createFavorites/createFavorites.vue')['default']

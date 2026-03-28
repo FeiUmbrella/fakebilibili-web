@@ -28,6 +28,7 @@ export const uploadFile = async (config: FileUpload, rawFile: File, fragment?: b
     }
     switch (config.uploadType) {
         case "aliyunOss":
+        case "tencentCos":
             res = ossUpload(rawFile, config, dir, fragment)
             break;
         case "local":
@@ -37,4 +38,3 @@ export const uploadFile = async (config: FileUpload, rawFile: File, fragment?: b
     }
     return res as Promise<{ path: string}>
 }
-

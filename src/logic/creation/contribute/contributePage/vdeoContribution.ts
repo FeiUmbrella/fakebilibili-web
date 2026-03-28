@@ -108,8 +108,8 @@ export const useHandleFileMethod = (uploadFileformation: uploadFileformation, fo
             //大于30mb
             let fragment = params.file.size > 30 * 1024 * 1024 ? true : false
             form.isShow = !form.isShow
-            //强制修改为上传到阿里云oss对象存储服务器中
-            uploadFileformation.uploadType="aliyunOss"
+            // 强制修改为上传到腾讯云 COS 对象存储服务器中
+            uploadFileformation.uploadType="tencentCos"
             const response = await uploadFile(uploadFileformation, params.file, fragment)
             console.log("上传视频的response为",response)
             uploadFileformation.uploadUrl = response.path // E:/video/hash.mp4
@@ -211,8 +211,7 @@ export const useHandleCoverMethod = (uploadCoveration: uploadFileformation, form
     //修改默认请求
     const RedefineUploadFile = async (params: UploadRequestOptions) => {
         try {
-            //todo:先将上传图片的类型强制修改为aliyunosss
-            uploadCoveration.uploadType = "aliyunOss"
+            uploadCoveration.uploadType = "tencentCos"
             const response = await uploadFile(uploadCoveration, params.file)
             console.log("上传封面图片返回的结果为",response)
             //todo:这里返回的是图片的路径，应该拼接上前缀再返回，不然显示不出来;不过貌似改这里没用，应该修改后端返回的数据
@@ -280,7 +279,7 @@ export const useSaveData = async (form: vdeoContributionForm, uploadFileformatio
                         cover: uploadCoveration.uploadUrl,
                         // coverUploadType: uploadCoveration.uploadType,
                         //这个地方的上传类型不写死的话，默认是local方式上传，更新视频的时候如果不更新封面图片会导致封面图片丢失
-                        coverUploadType:"aliyunOss",
+                        coverUploadType:"tencentCos",
                         title: form.title,
                         reprinted: form.type,
                         label: form.label,

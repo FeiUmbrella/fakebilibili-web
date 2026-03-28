@@ -26,6 +26,9 @@ export interface GteossStsres {
     access_key_id: string;
     access_key_secret: string;
     sts_token: string;
+    secret_id: string;
+    secret_key: string;
+    session_token: string;
     bucket: string;
     expiration_time: number;
 }
